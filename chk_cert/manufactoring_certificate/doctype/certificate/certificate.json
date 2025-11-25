@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-18 14:47:45.385269",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "certificate_id",
+  "lot",
+  "employee",
+  "certificate_type",
+  "issue_date",
+  "expiry_date",
+  "recommended_storage",
+  "approved_by",
+  "approved_position",
+  "remark",
+  "table_pmpo"
+ ],
+ "fields": [
+  {
+   "fieldname": "certificate_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Certificate ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "certificate_type",
+   "fieldtype": "Data",
+   "label": "Certificate Type"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "recommended_storage",
+   "fieldtype": "Text",
+   "label": "Recommended Storage"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Data",
+   "label": "Approved By"
+  },
+  {
+   "fieldname": "approved_position",
+   "fieldtype": "Data",
+   "label": "Approved Position"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "lot",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lot",
+   "options": "Manufacturing Lot",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "table_pmpo",
+   "fieldtype": "Table",
+   "options": "Test Result"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 14:40:43.870309",
+ "modified_by": "Administrator",
+ "module": "Manufactoring Certificate",
+ "name": "Certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

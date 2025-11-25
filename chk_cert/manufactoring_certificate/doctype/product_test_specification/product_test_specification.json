@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-18 14:55:43.592064",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product",
+  "indicator_id",
+  "specification_value"
+ ],
+ "fields": [
+  {
+   "fieldname": "indicator_id",
+   "fieldtype": "Int",
+   "label": "Indicator ID"
+  },
+  {
+   "fieldname": "specification_value",
+   "fieldtype": "Data",
+   "label": "Specification Value"
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product",
+   "options": "Products",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-25 13:28:05.065978",
+ "modified_by": "Administrator",
+ "module": "Manufactoring Certificate",
+ "name": "Product Test Specification",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
