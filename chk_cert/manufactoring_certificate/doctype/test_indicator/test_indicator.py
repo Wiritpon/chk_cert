@@ -15,7 +15,7 @@ class TestIndicator(Document):
 		from frappe.types import DF
 
 		category: DF.Data | None
-		frequency: DF.Int
+		frequency: DF.Data | None
 		indicator: DF.Data | None
 		reference_standard: DF.Data | None
 		specifications: DF.Data | None

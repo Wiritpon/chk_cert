@@ -35,7 +35,7 @@
   },
   {
    "fieldname": "frequency",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "label": "Frequency"
   },
   {
@@ -47,7 +47,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-25 14:57:41.551783",
+ "modified": "2025-11-28 15:13:51.154629",
  "modified_by": "Administrator",
  "module": "Manufactoring Certificate",
  "name": "Test Indicator",
@@ -67,7 +67,9 @@
   }
  ],
  "row_format": "Dynamic",
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "indicator"
 }

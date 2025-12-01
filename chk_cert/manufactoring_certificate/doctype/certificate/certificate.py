@@ -25,7 +25,7 @@ class Certificate(Document):
 		lot: DF.Link
 		recommended_storage: DF.Text | None
 		remark: DF.Text | None
-		table_pmpo: DF.Table[TestResult]
+		table_rpqf: DF.Table[TestResult]
 	# end: auto-generated types
 
 	pass

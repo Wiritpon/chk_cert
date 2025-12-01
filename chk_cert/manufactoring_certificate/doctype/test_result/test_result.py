@@ -16,12 +16,12 @@ class TestResult(Document):
 
 		category: DF.Link | None
 		certificate_id: DF.Link | None
-		frequency: DF.Data | None
+		frequency: DF.Link | None
 		indicator: DF.Link | None
 		parent: DF.Data
 		parentfield: DF.Data
 		parenttype: DF.Data
-		reference_standard: DF.Data | None
+		reference_standard: DF.Link | None
 		result: DF.Data | None
 		result_value: DF.Data | None
 		specifications: DF.Link | None

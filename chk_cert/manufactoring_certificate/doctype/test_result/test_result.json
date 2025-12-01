@@ -20,65 +20,87 @@
  ],
  "fields": [
   {
-   "fieldname": "result",
-   "fieldtype": "Data",
-   "label": "Result"
-  },
-  {
    "fieldname": "indicator",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Indicator",
    "options": "Test Indicator"
   },
   {
+   "fieldname": "result",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Result"
+  },
+  {
    "fieldname": "certificate_id",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Certificate ID",
    "options": "Certificate"
   },
   {
    "fieldname": "result_value",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Result Value"
   },
   {
    "fieldname": "tested_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Tested Date"
   },
   {
    "fieldname": "tested_by",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Tested By"
   },
   {
    "fieldname": "category",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Category",
-   "options": "Certificate"
+   "options": "Test Indicator"
   },
   {
-   "fetch_from": "indicator.test_method",
+   "fieldname": "specifications",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Specifications",
+   "options": "Test Indicator"
+  },
+  {
    "fieldname": "test_method",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Test Method",
    "options": "Test Indicator"
   },
   {
    "fieldname": "reference_standard",
-   "fieldtype": "Data",
-   "label": "Reference Standard"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Reference Standard",
+   "options": "Test Indicator"
   },
   {
    "fieldname": "frequency",
-   "fieldtype": "Data",
-   "label": "Frequency"
-  },
-  {
-   "fetch_from": "indicator.specifications",
-   "fieldname": "specifications",
    "fieldtype": "Link",
-   "label": "Specifications",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Frequency",
    "options": "Test Indicator"
   }
  ],
@@ -86,7 +108,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-11-25 14:58:17.449506",
+ "modified": "2025-11-28 14:05:09.223615",
  "modified_by": "Administrator",
  "module": "Manufactoring Certificate",
  "name": "Test Result",
